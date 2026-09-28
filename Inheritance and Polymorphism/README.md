@@ -1,3 +1,8 @@
+Name: Made Agastya Devanatha Dharmawan
+
+NIM: F1D02410071  
+
+
 # Inheritance and Polymorphism
 
 A Java program demonstrating the concepts of **Encapsulation**, **Inheritance**, and **Polymorphism** using a geometric shape class hierarchy.
@@ -126,13 +131,8 @@ for (Shape s : shapes) {
 }
 ```
 
-**Output:**
-```
-Shape colored Red
-Square colored Blue, area = 25.0
-Circle colored Green, area = 153.938...
-Cylinder colored Yellow, volume = 1539.380...
-```
+## Screenshots & Explanation
+![Output](img/img1.png)
 
 Even though the variable `s` is of type `Shape`, the executed `printInfo()` method belongs to each subclass respectively — this is **runtime polymorphism**.
 
